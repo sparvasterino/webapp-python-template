@@ -8,7 +8,7 @@ Una playlist con i tuoi video preferiti? Calcolare la codifica di Huffman?
 Qualsiasi cosa tu voglia creare, puoi usare questo template!
 
 ### Passi
-1. fare il fork di questo progetto usando il proprio account
+1. fare il fork di questo progetto usando il proprio account 
 1. modificare questa pagina, aggiungendo una breve descrizione di cosa deve fare l'applicazione, possibilmente usando le storie utente
 1. modificare il file something.py, in modo che generi dei dati per l'applicazione
 1. scrivere la pagina HTML per visualizzazione dei dati
@@ -17,3 +17,7 @@ Qualsiasi cosa tu voglia creare, puoi usare questo template!
 Il tutorial che abbiamo usato anche in classe lo trovate [qui](https://wbigger.github.io/book-cs-3y/).
 
 Buon divertimento :)
+
+# progetto
+
+voglio creare un  applicazione da cui puoi ordinarci il cibo con tutta una lista di vari tipi di cibo dalla pizza al sushi ecc...
