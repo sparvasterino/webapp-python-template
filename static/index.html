@@ -14,7 +14,7 @@
 <script>
     // Prende i dati come JSON dall'URL
     // quando ha finito di prendere i dati, chiama la funzione "makeList"
-    $.getJSON("http://127.0.0.1:5000/").done(makeList);
+    $.getJSON("/data").done(makeList);
     function makeList(jsonlista) {
     for (lista of jsonlista) {
         let newItem = ` <li>${lista}</li>`;
