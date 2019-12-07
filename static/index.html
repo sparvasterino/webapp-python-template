@@ -9,14 +9,7 @@
 </head>
 
 <body>
-    <table border="10" bordercolor="Red">
-        <tr>
-            <td>
-                <tp>
-                </tp>
-            </td>
-        </tr>
-
+    <table border="10" bordercolor="acquamarine">
     </table>
     <ul>
     </ul>
@@ -27,10 +20,17 @@
     // quando ha finito di prendere i dati, chiama la funzione "makeList"
     $.getJSON("/data").done(makeList);
     function makeList(jsonlista) {
+        let item = ""
         for (lista of jsonlista) {
-            let newItem = `<tr><td>${lista}</td></tr>`;
-            $("table").append(newItem);
+            item += "<tr>"
+            for (string of lista) {
+                item +=  `<td>${string}</td>`
+            }
+            item += "</tr>"
         }
+        $("table").append(item)
+        $("table").append(`<tr><td><a href="https://www.mcdonalds.it/?ds_rl=1135239&gclid=EAIaIQobChMI77mU74Sj5gIVE_lRCh3gdwN7EAAYASAAEgKPffD_BwE&gclsrc=aw.ds">Powered By</a></td></tr>`)
+        $("table").append(`<tr><td><a href="https://www.ups.com/it/it/Home.page">Corriere</a></td></tr>`)
     }
 </script>
 
